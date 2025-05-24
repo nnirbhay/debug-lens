@@ -27,12 +27,27 @@
             <h2>Information We Collect</h2>
             <p><strong>Salesforce Debug Lens</strong> does not collect, store, or transmit any personal information to external servers or third parties. All data is used locally within the extension for its intended functionality.</p>
             <ul>
-                <li><strong>Session ID from Salesforce cookies:</strong> Used to authenticate API calls to your connected Salesforce org.</li>
-                <li><strong>Organization Information:</strong> Retrieves org name and type (Production or Sandbox) for identification and context.</li>
-                <li><strong>User Information:</strong> Fetches display name and ID of the logged-in user from Salesforce.</li>
-                <li><strong>Debug Logs:</strong> Fetched on demand to analyze and visualize code execution, errors, and flow.</li>
-                <li><strong>Apex Classes and Triggers:</strong> Metadata is retrieved based on log insights for relevant execution flow.</li>
-                <li><strong>Trace Flags & Debug Levels:</strong> Manage log generation via Salesforce Tooling APIs.</li>
+                <li><strong>Session ID from Salesforce cookies:</strong> 
+                    The extension accesses the session ID from your active Salesforce browser session to authenticate API calls to your connected Salesforce org.
+                </li>
+                <li><strong>Organization Information:</strong> 
+                    We retrieve basic organization metadata such as org name and type (Production or Sandbox) for identification and context within the extension.
+                </li>
+                <li><strong>User Information:</strong> 
+                    The extension fetches the logged-in user’s display name and username from Salesforce to personalize the debugging interface.
+                </li>
+                <li><strong>Debug Logs:</strong> 
+                    Upon request, the extension fetches debug logs to analyze and visualize executed code, process flow, and errors.
+                </li>
+                <li><strong>Apex Classes, Apex Triggers & Apex Page(vf page):</strong> 
+                    Based on debug log insights, the extension retrieves metadata for Apex classes, triggers, & page involved in the execution flow.
+                </li>
+                <li><strong>Trace Flags & Debug Levels:</strong> 
+                    Manage log generation via Salesforce Tooling APIs.
+                </li>
+                <li><strong>Active Users List:</strong> 
+                    To create or manage Trace Flags and Debug Levels, the extension fetches the list of active users from the org, limited strictly to essential fields (User ID and Name only).                
+                </li>
             </ul>
         </section>
 
