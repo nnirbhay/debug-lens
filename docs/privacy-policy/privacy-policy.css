@@ -74,9 +74,12 @@ h2 {
 	/* margin-bottom: 1rem; */
 }
 
-p {
+p, a {
 	/* margin-bottom: 1rem; */
 	font-size: 1rem;
+}
+a{
+	color: #1e40af;
 }
 
 ul {
