@@ -9,6 +9,14 @@ function navigateToPage(){
         case 'privacy-policy':
             window.location = pageBaseURL+'privacy-policy'
             break;
+
+        case 'raise-bug':
+            window.location = pageBaseURL+'raise-support-ticket'
+            break;
+
+        case 'drop-suggestion':
+            window.location = pageBaseURL+'raise-support-ticket'
+            break;
     
         default:
             break;
