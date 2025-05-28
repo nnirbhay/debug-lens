@@ -1,5 +1,6 @@
-@import url('/docs/productGlobalStyles.css');
-@import url('/docs/globalCssLibrary.css');
+
+@import url('../productGlobalStyles.css');
+@import url('../globalCssLibrary.css');
 
 iframe{
 	outline: none;
