@@ -17,6 +17,10 @@ function navigateToPage(){
         case 'drop-suggestion':
             window.location = pageBaseURL+'raise-support-ticket'
             break;
+
+        case 'user-guide':
+            window.location = pageBaseURL+'user-guide'
+            break;
     
         default:
             break;
